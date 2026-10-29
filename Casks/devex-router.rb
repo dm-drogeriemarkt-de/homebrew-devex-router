@@ -2,25 +2,25 @@
 cask "devex-router" do
   binary "devex-router", target: "dxr"
 
-  version "2.3.0"
+  version "2.3.1"
 
   on_macos do
     on_arm do
-      sha256 "b4b2db4dcf6e048f286a09d254c9f36f820b055565da9f10cd0489e1d9ec5e59"
+      sha256 "06da6b9d4469f59c52fab809571171a9d24b75430cf46fc976e36151b5b273bc"
       url "https://github.com/dm-drogeriemarkt-de/homebrew-devex-router/releases/download/v#{version}/devex-router_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "04616f0a46d630e944131507e6b0dad43d0c2ee44bb16072c832c89d0f5ae303"
+      sha256 "ec236278e2168f1231835aa2b300de43f0d3fd7b5e5fbbe6bbd7ab623077b775"
       url "https://github.com/dm-drogeriemarkt-de/homebrew-devex-router/releases/download/v#{version}/devex-router_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "b23778781f1ba27e2e3131b97436dd72a6a35ae7d57f2da11ce0ab0679b4e29c"
+      sha256 "214bd791ec15f51821499804fc04a5871f9c628623b7bbb01c4a0b96e2f463da"
       url "https://github.com/dm-drogeriemarkt-de/homebrew-devex-router/releases/download/v#{version}/devex-router_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "7a64dc30f0b81123003d7db8c079b19c47a0d8d73928720eb305f7cb17f79f5c"
+      sha256 "607b675d0166ec3b0efca1a93f9299f2f85a3c6e0b6783feba578cb53a664fd9"
       url "https://github.com/dm-drogeriemarkt-de/homebrew-devex-router/releases/download/v#{version}/devex-router_#{version}_linux_amd64.tar.gz"
     end
   end
